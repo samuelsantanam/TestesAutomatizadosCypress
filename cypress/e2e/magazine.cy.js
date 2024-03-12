@@ -1,5 +1,3 @@
-/// <reference types="cypress" />
-
 context('Aprendendo CYPRESS', () => {
   it('Learning - Magazine', () => {
     //Para o Ultrawide
@@ -34,6 +32,8 @@ context('Aprendendo CYPRESS', () => {
     cy.get('.BasketContinue-button').click()
     //Clica em Magalu para voltar para a página inicial
     cy.get(".CheckoutHeader-logo-icon").click
+
+    //Teste de comentário
 
 
     })

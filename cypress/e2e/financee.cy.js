@@ -1,4 +1,3 @@
-/// <reference types="cypress" />
 
 context('Dev Finances', () => {
   it('Cadastrar transacao', () => {

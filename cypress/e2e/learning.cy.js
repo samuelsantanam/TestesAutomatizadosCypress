@@ -1,4 +1,3 @@
-/// <reference types="cypress" />
 
 context('Aprendendo CYPRESS', () => {
     it('Learning - Login google', () => {
