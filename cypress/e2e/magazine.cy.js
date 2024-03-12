@@ -2,7 +2,7 @@ context('Aprendendo CYPRESS', () => {
   it('Learning - Magazine', () => {
     //Para o Ultrawide
     //cy.viewport(1920, 1280) // Set viewport to 550px x 750px
-    //Para o dellc:\Users\samue\Downloads\Samuel Santana Marinho - Boleto 9ª Parcela 07-03 - Boleto RESIDENCIAL 2ª VIA (1).pdf
+    //Para o dell
     cy.viewport(1480, 800) // Set viewport to 550px x 750px
     cy.visit('www.magazineluiza.com.br')
     cy.get('[data-testid="input-container"]').click()
@@ -41,4 +41,4 @@ context('Aprendendo CYPRESS', () => {
 });
 
 //Para executar em modo headless ou background
-//npx cypress run --spec "D:\Cypress\Projetos\cypress\e2e\magazine.cy.js"
+//npx cypress run --spec "D:\Cypress\TestesAutomatizadosCypress\cypress\e2e\magazine.cy.js"
