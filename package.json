@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:run:mobile":"npx cypress run --config viewportWidth=375, viewportHeight=667"
   },
   "keywords": [],
   "author": "",
@@ -12,4 +13,5 @@
   "devDependencies": {
     "cypress": "^13.6.5"
   }
+  
 }
