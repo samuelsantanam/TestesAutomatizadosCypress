@@ -11,7 +11,7 @@ Fluxo:
 
 ____
 
-Lições aprendidas<br>
+<b>Lições aprendidas<br></b>
 
 POP Install<br>
 Dentro do VSCode:<br>
