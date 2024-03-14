@@ -23,8 +23,7 @@ npm install cypress -D<br>
 //Para executar em modo headless ou background<br>
 //npx cypress run --spec "D:\Cypress\Projetos\cypress\e2e\magazine.cy.js"<br>
 
-Comandos mais utilizados no Cypress: <br>
-Comandos mais utilizados <br>
+<b>Comandos mais utilizados no Cypress: <br></b>
 cy.visit(url): Visita uma determinada URL. <br>
 cy.get(selector): Localiza um elemento com base no seletor fornecido. <br>
 cy.click(): Clica em um elemento. <br>
