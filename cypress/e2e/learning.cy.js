@@ -2,7 +2,8 @@ context('Aprendendo CYPRESS', () => {
   it('Learning - Cypress', () => {
     
     //Caso haja login:
-    //cy.login_teste('standard_user','secret_sauce');
+    //Exemplo de função customizada
+    //cy.login_teste('user','password');
     
     //Para o Ultrawide
     //cy.viewport(1920, 1280) // Set viewport to 550px x 750px
