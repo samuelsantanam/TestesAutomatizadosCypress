@@ -3,7 +3,7 @@ Testes em Cypress
 Fluxo:
 <br>1 - Logar em um site <br>
 2 - Pesquisa um produto<br>
-3 - Ordena a lista<br>v
+3 - Ordena a lista<br>
 4 - Verificar se existtem dois produtos em específico<br>
 5 - Adiciona os produtos no carrinho<br>
 
