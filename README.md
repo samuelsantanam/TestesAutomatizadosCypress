@@ -7,6 +7,13 @@ Fluxo:
 
 PS.: Foi criado o arquivo "gui_commands.js" na pasta support, onde contém um metódo personalizado para realizar login a partir de dois parâmetros enviados (user, password)
 
+____
+
+Para este teste dois casos de testes foram criados:
+1 - testeLoginSauce.cy.js
+Realiza login utilizando comando personalizado da pasta "gui_commands.js"
+
+2 - testefluxoDeCompra.cy.js: Fluxo de compra: simulação da compra de produtos
 
 ____
 
