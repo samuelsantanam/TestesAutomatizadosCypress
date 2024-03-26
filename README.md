@@ -1,7 +1,8 @@
-# <b>Testes em Cypress</b>
-
+##
 Fluxo:
-<br>1 - Uttilizando o saucedemo(https://www.saucedemo.com/v1/) para realizar testes automatizados com Cypress<br>
+<br>1 - Foi uttilizado o saucedemo (https://www.saucedemo.com/v1/) para realizar testes automatizados com Cypress<br>
+
+Fluxo do programa
 1 - Pesquisa produtos, adiciona no carrinho, verifica o preço<br>
 2 - Faz checkout e verifica os valores (Foram utilizadas funções como .should e .contains para realizar a verificação de valores)
 
