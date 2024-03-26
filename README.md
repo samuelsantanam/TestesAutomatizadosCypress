@@ -1,12 +1,11 @@
 # <b>Testes em Cypress</b>
 
 Fluxo:
-<br>1 - Logar em um site <br>
-2 - Pesquisa um produto<br>
-3 - Ordena a lista<br>
-4 - Verificar se existtem dois produtos em específico<br>
-5 - Adiciona os produtos no carrinho<br>
+<br>1 - Uttilizando o saucedemo(https://www.saucedemo.com/v1/) para realizar testes automatizados com Cypress<br>
+1 - Pesquisa produtos, adiciona no carrinho, verifica o preço<br>
+2 - Faz checkout e verifica os valores
 
+PS.: Foi criado o arquivo "gui_commands.js" na pasta support, onde contém um metódo personalizado para realizar login a partir de dois parâmetros enviados (user, password)
 
 
 ____
