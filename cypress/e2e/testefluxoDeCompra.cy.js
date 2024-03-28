@@ -77,6 +77,3 @@ context('Teste saucedemo - Tesde de compra', () => {
         cy.log('Fluxo: Teste compra - FNIALIZADO')
     });
 });
-
-//Para executar em modo headless ou background
-//npx cypress run --spec "D:\Cypress\TestesAutomatizadosCypress\cypress\e2e\magazine.cy.js"
