@@ -4,7 +4,7 @@ Fluxo:
 
 Fluxo do programa
 1 - Pesquisa produtos, adiciona no carrinho, verifica o preço<br>
-2 - Faz checkout e verifica os valores (Foram utilizadas funções como [.should](https://docs.cypress.io/api/commands/should) e .contains para realizar a verificação de valores)
+2 - Faz checkout e verifica os valores (Foram utilizadas funções como [.should](https://docs.cypress.io/api/commands/should) e [.contains](https://docs.cypress.io/api/commands/contains) para realizar a verificação de valores)
 
 PS.: Foi criado o arquivo "gui_commands.js" na pasta support, onde contém um metódo personalizado para realizar login a partir de dois parâmetros enviados (user, password)
 
