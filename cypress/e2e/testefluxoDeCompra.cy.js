@@ -1,7 +1,5 @@
 /// <reference types="cypress" />
 
-import 'D:/Cypress/TestesAutomatizadosCypress/cypress/support/gui_commands.js'
-
 context('Teste saucedemo - Tesde de compra', () => {
     
     it('CT1 - Login com sucesso', () => {
