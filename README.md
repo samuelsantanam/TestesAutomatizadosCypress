@@ -4,7 +4,7 @@ Fluxo:
 
 Fluxo do programa
 1 - Pesquisa produtos, adiciona no carrinho, verifica o preço<br>
-2 - Faz checkout e verifica os valores (Foram utilizadas funções como .should e .contains para realizar a verificação de valores)
+2 - Faz checkout e verifica os valores (Foram utilizadas funções como [.should](https://docs.cypress.io/api/commands/should) e .contains para realizar a verificação de valores)
 
 PS.: Foi criado o arquivo "gui_commands.js" na pasta support, onde contém um metódo personalizado para realizar login a partir de dois parâmetros enviados (user, password)
 
@@ -43,4 +43,8 @@ cy.wait(time): Aguarda um determinado período de tempo em milissegundos. <br>
 cy.get('[data-cy="element"]').click(): Localiza um elemento pelo atributo data-cy e clica nele. <br>
 cy.get('input').clear(): Limpa o conteúdo de um campo de input. <br> 
 cy.get('form').submit(): Submete um formulário. <br>
-cy.get(selector).scrollIntoView(): Faz a rolagem até um elemento específico. <br>
+cy.get(selector).scrollIntoView(): Faz a rolagem até um elemento específico. 
+Validar se está na URL correta: 
+cy.url().should('be.equal', 'https://')
+
+<br>
