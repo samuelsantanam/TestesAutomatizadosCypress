@@ -1,11 +1,11 @@
 ## Introdução:
 <br>1 - Foi uttilizado o [saucedemo](https://www.saucedemo.com/v1/) para realizar testes automatizados utilizando [Cypress](https://www.cypress.io)<br>
 
-Fluxo do programa
+Fluxo do programa <br>
 1 - Pesquisa produtos, adiciona no carrinho, verifica o preço<br>
-2 - Faz checkout e verifica os valores (Foram utilizadas funções como [.should](https://docs.cypress.io/api/commands/should) e [.contains](https://docs.cypress.io/api/commands/contains) para realizar a verificação de valores)
+2 - Faz checkout e verifica os valores (Foram utilizadas funções como [.should](https://docs.cypress.io/api/commands/should) e [.contains](https://docs.cypress.io/api/commands/contains) para realizar a verificação de valores) <br>
 
-PS.: Foi criado o arquivo ["gui_commands.js"](https://github.com/samuelsantanam/TestesAutomatizadosCypress/blob/main/cypress/support/gui_commands.js) na pasta [support](https://github.com/samuelsantanam/TestesAutomatizadosCypress/tree/main/cypress/support), onde contém um metódo personalizado para realizar login a partir de dois parâmetros enviados (user, password)
+PS.: Foi criado o arquivo ["gui_commands.js"] <br>(https://github.com/samuelsantanam/TestesAutomatizadosCypress/blob/main/cypress/support/gui_commands.js) na pasta [support](https://github.com/samuelsantanam/TestesAutomatizadosCypress/tree/main/cypress/support), onde contém um metódo personalizado para realizar login a partir de dois parâmetros enviados (user, password) <br>
 
 ____
 
