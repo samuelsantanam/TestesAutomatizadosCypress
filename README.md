@@ -47,7 +47,8 @@ cy.url().should('be.equal', 'https://')
 <br>
 
 Agradecimentos
-[Walmyr Lima e Silva Filho](https://www.linkedin.com/in/walmyr-lima-e-silva-filho/): Por ter disponibilizados várias video-aulas no [seu canal no youtube](https://www.youtube.com/@TalkingAboutTesting) ensinando a utilizar o cypress desde os passos mais simples até itens mais avançados.
+[Walmyr Lima e Silva Filho](https://www.linkedin.com/in/walmyr-lima-e-silva-filho/): Por ter disponibilizados várias video-aulas no [seu canal no youtube](https://www.youtube.com/@TalkingAboutTesting) ensinando a utilizar o cypress desde os passos mais simples até itens mais avançados, e também seus cursos: 'Testes automatizados com Cypress - Básico' e 'Testes automatizados com Cypress (intermediário)'
 
+Alex Soares: Também pelas video-aulas no [seu canal do youtube](https://www.youtube.com/@alexosoares)
 
 
