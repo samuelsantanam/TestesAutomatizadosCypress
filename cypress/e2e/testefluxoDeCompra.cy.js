@@ -72,12 +72,11 @@ context('Teste saucedemo - Tesde de compra', () => {
         cy.get('.summary_total_label').contains('82.05')
         //Clica no botão Finish
         cy.get('.btn_action').click()
-        //Verifica se existe o texto abaixo
-        cy.get('.complete-header').contains('THANK YOU FOR YOUR ORDER')
-
-
+        //Verifica se existe o texto abaixo na tela de finalização de compra
+        cy.get('.complete-header').should('have.text', 'THANK YOU FOR YOUR ORDER')
+        cy.url().should('be.equal', 'https://www.saucedemo.com/v1/checkout-complete.html')
+        cy.log('Fluxo: Teste compra - FNIALIZADO')
     });
-
 });
 
 //Para executar em modo headless ou background
