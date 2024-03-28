@@ -24,13 +24,13 @@ Dentro do VSCode:<br>
 <br>
 
 ## <b>Conclusão:</b><br>
- - Ao utilizar automação de testes com o Cypress foi possível observar e destacar vários pontos:<br>
- - Curva de aprendizado encurtada, visto que a ferramenta é muito dinâmica e possui funções para abranger validações de testes de diversar formas<br>
- - Facilidade na instalação e configuração<br>
- - Possibilidade de organizar os casos de testes de maneira simplificada<br>
- - Excelente performance: Execução dos testes muito rápida<br>
- - Possibilidade criar comandos personalizados para otimização de código<br>
- - Possibilidade de abranger testes de API e testes E2E<br>
+- Ao utilizar automação de testes com o Cypress foi possível observar e destacar vários pontos:<br>
+- Curva de aprendizado encurtada, visto que a ferramenta é muito dinâmica e possui funções para abranger validações de testes de diversar formas<br>
+- Facilidade na instalação e configuração<br>
+- Possibilidade de organizar os casos de testes de maneira simplificada<br>
+- Excelente performance: Execução dos testes muito rápida<br>
+- Possibilidade criar comandos personalizados para otimização de código<br>
+- Possibilidade de abranger testes de API e testes E2E<br>
 
 ## <b>Lições aprendidas<br></b>
 
