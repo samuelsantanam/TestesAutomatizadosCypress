@@ -1,5 +1,5 @@
-## Introdução:
-<br>1 - Foi uttilizado o [saucedemo](https://www.saucedemo.com/v1/) para realizar testes automatizados utilizando [Cypress](https://www.cypress.io)<br>
+## Introdução:<br>
+ - Foi uttilizado o [saucedemo](https://www.saucedemo.com/v1/) para realizar testes automatizados utilizando [Cypress](https://www.cypress.io)<br>
 
 Fluxo do programa <br>
 1 - Pesquisa produtos, adiciona no carrinho, verifica o preço<br>
@@ -22,6 +22,16 @@ Dentro do VSCode:<br>
 2 - Para instalar o [Cypress](https://www.cypress.io) basta digitar o comando: </b> npm install cypress -D</b><br>
 3 - Após a criação dos casos testes, para abrir o cypress no modo interativo, bata executar o comando: <b>npx cypress open</b>, caso queria utilizar em modo headless(background) basta executar: <b>npx cypress run --spec "Informar o caminho do arquivo que contém o teste criado com a extensão: .cy.js"</b><br>
 <br>
+
+## <b>Conclusão:</b><br>
+ - Ao utilizar automação de testes com o Cypress foi possível observar e destacar vários pontos:
+ -- Curva de aprendizado encurtada, visto que a ferramenta é muito dinâmica e possui funções para abranger validações de testes de diversar formas
+ -- Facilidade na instalação e configuração
+ -- Possibilidade de organizar os casos de testes de maneira simplificada
+ -- Excelente performance: Execução dos testes muito rápida
+ -- Possibilidade criar comandos personalizados para otimização de código
+ -- Possibilidade de abranger testes de API e testes E2E
+
 
 ## <b>Lições aprendidas<br></b>
 
