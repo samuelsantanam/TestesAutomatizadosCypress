@@ -7,8 +7,6 @@ Fluxo do programa <br>
 
 PS.: Foi criado o arquivo ["gui_commands.js"](https://github.com/samuelsantanam/TestesAutomatizadosCypress/blob/main/cypress/support/gui_commands.js) na pasta [support](https://github.com/samuelsantanam/TestesAutomatizadosCypress/tree/main/cypress/support), onde contém um metódo personalizado para realizar login a partir de dois parâmetros enviados (user, password) <br>
 
-____
-
 Para este projeto dois casos de testes foram criados: <br>
 1 - [testeLoginSauce.cy.js](https://github.com/samuelsantanam/TestesAutomatizadosCypress/blob/main/cypress/e2e/testeLoginSauce.cy.js): Realiza login utilizando comando personalizado da pasta ["gui_commands.js"](https://github.com/samuelsantanam/TestesAutomatizadosCypress/blob/main/cypress/support/gui_commands.js)<br>
 
