@@ -46,9 +46,8 @@ cy.url().should('be.equal', 'https://')
 //npx cypress run --spec "D:\Cypress\Projetos\cypress\e2e\magazine.cy.js"<br>
 <br>
 
-Agradecimentos
+## Agradecimentos
  - [Walmyr Lima e Silva Filho](https://www.linkedin.com/in/walmyr-lima-e-silva-filho/): Por ter disponibilizados várias video-aulas no [seu canal no youtube](https://www.youtube.com/@TalkingAboutTesting) ensinando a utilizar o cypress desde os passos mais simples até itens mais avançados, e também seus cursos: 'Testes automatizados com Cypress - Básico' e 'Testes automatizados com Cypress (intermediário)'
-
 - Alex Soares: Também pelas video-aulas no [seu canal do youtube](https://www.youtube.com/@alexosoares)
 - Pelo apoio de amigos [ao apreciarem um novo item de apredizado](https://www.linkedin.com/feed/update/urn:li:activity:7174030314221015040/) para minha carreira profissioal
   
