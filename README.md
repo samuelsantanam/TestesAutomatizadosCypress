@@ -19,8 +19,8 @@ Para este projeto dois casos de testes foram criados: <br>
 POP Install<br>
 Dentro do VSCode:<br>
 1 - Para criar as pastas do projeto, basta digitar o comando a seguir no Terminal: npm init -y<br>
-2 - Para instalar o [Cypress](https://www.cypress.io): npm install cypress -D<br>
-3 - Após a criação dos casos testes, para abrir o cypress no modo interativo, bata executar o comando: npx cypress open, caso queria utilizar em modo headless(background) basta executar: npx cypress run --spec "Informar o caminho do arquivo que contém o teste criado com a extensão: .cy.js"<br><br>
+2 - Para instalar o [Cypress](https://www.cypress.io): </b>npm install cypress -D</b><br>
+3 - Após a criação dos casos testes, para abrir o cypress no modo interativo, bata executar o comando: <b>npx cypress open</b>, caso queria utilizar em modo headless(background) basta executar: <b>npx cypress run --spec "Informar o caminho do arquivo que contém o teste criado com a extensão: .cy.js"</b><br>
 <br>
 
 ## <b>Lições aprendidas<br></b>
