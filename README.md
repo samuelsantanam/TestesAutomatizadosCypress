@@ -45,3 +45,9 @@ cy.url().should('be.equal', 'https://')
 //Para executar em modo headless ou background<br>
 //npx cypress run --spec "D:\Cypress\Projetos\cypress\e2e\magazine.cy.js"<br>
 <br>
+
+Agradecimentos
+[Walmyr Lima e Silva Filho](https://www.linkedin.com/in/walmyr-lima-e-silva-filho/): Por ter disponibilizados várias video-aulas no [seu canal no youtube](https://www.youtube.com/@TalkingAboutTesting) ensinando a utilizar o cypress desde os passos mais simples até itens mais avançados.
+
+
+
