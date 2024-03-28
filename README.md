@@ -9,10 +9,10 @@ PS.: Foi criado o arquivo ["gui_commands.js"](https://github.com/samuelsantanam/
 
 ____
 
-Para este projeto dois casos de testes foram criados:
-1 - [testeLoginSauce.cy.js](https://github.com/samuelsantanam/TestesAutomatizadosCypress/blob/main/cypress/e2e/testeLoginSauce.cy.js): Realiza login utilizando comando personalizado da pasta ["gui_commands.js"](https://github.com/samuelsantanam/TestesAutomatizadosCypress/blob/main/cypress/support/gui_commands.js)
+Para este projeto dois casos de testes foram criados: <br>
+1 - [testeLoginSauce.cy.js](https://github.com/samuelsantanam/TestesAutomatizadosCypress/blob/main/cypress/e2e/testeLoginSauce.cy.js): Realiza login utilizando comando personalizado da pasta ["gui_commands.js"](https://github.com/samuelsantanam/TestesAutomatizadosCypress/blob/main/cypress/support/gui_commands.js)<br>
 
-2 - [testefluxoDeCompra.cy.js](https://github.com/samuelsantanam/TestesAutomatizadosCypress/blob/main/cypress/e2e/testefluxoDeCompra.cy.js): Fluxo de compra: simulação da compra de produtos
+2 - [testefluxoDeCompra.cy.js](https://github.com/samuelsantanam/TestesAutomatizadosCypress/blob/main/cypress/e2e/testefluxoDeCompra.cy.js): Fluxo de compra: simulação da compra de produtos<br>
 
 ____
 ## Pré-requisitos para o projeto
