@@ -1,6 +1,6 @@
 ##
 Fluxo:
-<br>1 - Foi uttilizado o [saucedemo](https://www.saucedemo.com/v1/) para realizar testes automatizados com Cypress<br>
+<br>1 - Foi uttilizado o [saucedemo](https://www.saucedemo.com/v1/) para realizar testes automatizados utilizando [Cypress](https://www.cypress.io)<br>
 
 Fluxo do programa
 1 - Pesquisa produtos, adiciona no carrinho, verifica o preço<br>
@@ -16,18 +16,19 @@ Para este projeto dois casos de testes foram criados:
 2 - [testefluxoDeCompra.cy.js](https://github.com/samuelsantanam/TestesAutomatizadosCypress/blob/main/cypress/e2e/testefluxoDeCompra.cy.js): Fluxo de compra: simulação da compra de produtos
 
 ____
-
-## <b>Lições aprendidas<br></b>
-
+##Pré-requisitos para o projeto
+ - Ter o vscode instado
+ - Ter o npm instalado
+ - Clonar este projeto
+ 
 POP Install<br>
 Dentro do VSCode:<br>
-1 - npm init -y (cria as configs do projeto)<br>
-2 - Instalar o cypress:<br>
-npm install cypress -D<br>
-3 - npx cypress open (abrir o cypress no modo interativo)<br>
+1 - Para criar as pastas do projeto: npm init -y<br>
+2 - Para instalar o [Cypress](https://www.cypress.io): npm install cypress -D<br>
+3 - Após a criação dos casos testes, para abrir o cypress no modo interativo, bata executar o comando: npx cypress open, caso queria utilizar em modo headless(background) basta executar: npx cypress run --spec "Informar o caminho do arquivo que contém o teste criado com a extensão: .cy.js"<br><br>
 <br>
-//Para executar em modo headless ou background<br>
-//npx cypress run --spec "D:\Cypress\Projetos\cypress\e2e\magazine.cy.js"<br>
+
+## <b>Lições aprendidas<br></b>
 
 <b>Comandos mais utilizados no Cypress: <br></b>
 cy.visit(url): Visita uma determinada URL. <br>
@@ -46,5 +47,6 @@ cy.get('form').submit(): Submete um formulário. <br>
 cy.get(selector).scrollIntoView(): Faz a rolagem até um elemento específico. 
 Validar se está na URL correta: 
 cy.url().should('be.equal', 'https://')
-
+//Para executar em modo headless ou background<br>
+//npx cypress run --spec "D:\Cypress\Projetos\cypress\e2e\magazine.cy.js"<br>
 <br>
