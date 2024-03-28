@@ -72,6 +72,7 @@ context('Teste saucedemo - Tesde de compra', () => {
         cy.get('.btn_action').click()
         //Verifica se existe o texto abaixo na tela de finalização de compra
         cy.get('.complete-header').should('have.text', 'THANK YOU FOR YOUR ORDER')
+        //Valida se está na URL corrreta de checkout
         cy.url().should('be.equal', 'https://www.saucedemo.com/v1/checkout-complete.html')
         cy.log('Fluxo: Teste compra - FNIALIZADO')
     });
