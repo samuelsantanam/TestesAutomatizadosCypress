@@ -1,5 +1,4 @@
-##
-Fluxo:
+## Introdução:
 <br>1 - Foi uttilizado o [saucedemo](https://www.saucedemo.com/v1/) para realizar testes automatizados utilizando [Cypress](https://www.cypress.io)<br>
 
 Fluxo do programa
@@ -16,7 +15,7 @@ Para este projeto dois casos de testes foram criados:
 2 - [testefluxoDeCompra.cy.js](https://github.com/samuelsantanam/TestesAutomatizadosCypress/blob/main/cypress/e2e/testefluxoDeCompra.cy.js): Fluxo de compra: simulação da compra de produtos
 
 ____
-##Pré-requisitos para o projeto
+## Pré-requisitos para o projeto
  - Ter o vscode instado
  - Ter o npm instalado
  - Clonar este projeto
