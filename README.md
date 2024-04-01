@@ -32,6 +32,9 @@ Ao utilizar automação de testes com o Cypress foi possível observar e destaca
 - Possibilidade criar comandos personalizados para otimização de código<br>
 - Possibilidade de abranger testes de API e testes E2E<br>
 
+Em geral, pelo meu conhecimento em automação de teste com outras ferramentas(TestComplete) voltadas para esse propósito, o Cypress me agradou muito, fez expandir meu conhecimento sobre testes automatizados voltados para web, mostrou as diferentes maneiras que podem ser realizadas as validações dos testes e despertou grande vontade de aprofundar mais na ferramenta e realizar projetos de testes maiores, com fluxo de dados mais extensos voltados para o mercado atual. Gostei bastante de utilizar a ferramenta. No mais, fico bastante feliz por ter agregado mais conhecimento na minha carreira profissional, afinal precisamos expandir nossos conhecimentos e sair da zona de conforto não é verdade? 
+
+
 ## <b>Lições aprendidas<br></b>
 
 <b>Comandos mais utilizados no Cypress: <br></b>
